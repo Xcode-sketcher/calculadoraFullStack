@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.display input {
+    width: 95%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+button.operator {
+    background-color: #f39c12;
+    color: white;
+}
